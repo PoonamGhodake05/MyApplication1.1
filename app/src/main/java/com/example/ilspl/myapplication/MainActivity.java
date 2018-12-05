@@ -13,7 +13,7 @@ TextView tv_click;
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv_click= findViewById(R.id.tv_click);
+        tv_click= (TextView)findViewById(R.id.tv_click);
         tv_click.setOnClickListener(new View.OnClickListener()
         {
             @Override
