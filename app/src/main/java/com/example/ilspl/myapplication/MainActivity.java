@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-//https://github.com/PoonamGhodake05/MyApplication/settings
+
 public class MainActivity extends AppCompatActivity {
 TextView tv_click;
     @Override
