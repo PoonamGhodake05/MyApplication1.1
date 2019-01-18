@@ -2,11 +2,12 @@ package com.example.ilspl.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity
 {
-TextView tv_display;
+    TextView tv_display;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
